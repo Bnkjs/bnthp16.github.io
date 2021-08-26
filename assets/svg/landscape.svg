@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1441.38 1025.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_206);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.18;
+      }
+
+      .cls-3 {
+        opacity: 0.13;
+      }
+
+      .cls-4 {
+        fill: #ededed;
+      }
+
+      .cls-5 {
+        fill: #bcbcbc;
+      }
+
+      .cls-6 {
+        fill: #9e9e9e;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_206" data-name="Dégradé sans nom 206" x1="720.69" x2="720.69" y2="1025.93" gradientTransform="translate(0.69 -0.97) rotate(0.08)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#ffd351"/>
+      <stop offset="0.42" stop-color="#f88276" stop-opacity="0.9"/>
+      <stop offset="0.91" stop-color="#bedfff"/>
+    </linearGradient>
+  </defs>
+  <title>Fichier 4</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <rect id="Rectangle" class="cls-1" x="0.69" y="0.97" width="1440" height="1023.99" transform="translate(-0.69 0.97) rotate(-0.08)"/>
+      <circle class="cls-2" cx="284.65" cy="124.03" r="29.46"/>
+      <g class="cls-3">
+        <polygon class="cls-4" points="1072.93 483.15 629.5 622.36 401.9 516.23 845.33 377.02 1072.93 483.15"/>
+        <polygon class="cls-5" points="1072.93 483.15 1074.17 505.33 630.74 644.54 629.5 622.36 1072.93 483.15"/>
+        <polygon class="cls-6" points="629.5 622.36 630.74 644.54 403.14 538.41 401.9 516.23 629.5 622.36"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="1072.93 435.5 629.5 574.71 401.9 468.58 845.33 329.37 1072.93 435.5"/>
+        <polygon class="cls-5" points="1072.93 435.5 1074.17 457.68 630.74 596.89 629.5 574.71 1072.93 435.5"/>
+        <polygon class="cls-6" points="629.5 574.71 630.74 596.89 403.14 490.76 401.9 468.58 629.5 574.71"/>
+      </g>
+    </g>
+  </g>
+</svg>

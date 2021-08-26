@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672.27 315.17">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.13;
+      }
+
+      .cls-2 {
+        fill: #ededed;
+      }
+
+      .cls-3 {
+        fill: #bcbcbc;
+      }
+
+      .cls-4 {
+        fill: #9e9e9e;
+      }
+    </style>
+  </defs>
+  <title>Fichier 6</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <g class="cls-1">
+        <polygon class="cls-2" points="671.03 153.78 227.6 292.99 0 186.86 443.43 47.65 671.03 153.78"/>
+        <polygon class="cls-3" points="671.03 153.78 672.27 175.96 228.84 315.17 227.6 292.99 671.03 153.78"/>
+        <polygon class="cls-4" points="227.6 292.99 228.84 315.17 1.24 209.04 0 186.86 227.6 292.99"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="671.03 106.13 227.6 245.34 0 139.21 443.43 0 671.03 106.13"/>
+        <polygon class="cls-3" points="671.03 106.13 672.27 128.31 228.84 267.52 227.6 245.34 671.03 106.13"/>
+        <polygon class="cls-4" points="227.6 245.34 228.84 267.52 1.24 161.39 0 139.21 227.6 245.34"/>
+      </g>
+    </g>
+  </g>
+</svg>
