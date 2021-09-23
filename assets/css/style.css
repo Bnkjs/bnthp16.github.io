@@ -236,57 +236,7 @@ footer a span:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 150px) and (max-width: 299px) {
-  #wrap-content {
-    width: 95%;
-  }
 
-  nav #brand {
-    width: 35%;
-    font-size: 1.5rem;
-  }
-
-  #game-display p {
-    margin: 0;
-  }
-  #game-display .result-round {
-    font-size: 1.2rem;
-  }
-
-  #game-content #actions-display {
-    width: 45%;
-  }
-  #game-content #actions-choices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #game-content #actions-choices img {
-    margin: 5%;
-    width: 20%;
-    margin-top: 10%;
-  }
-
-  #btn-start img {
-    width: 60px;
-    margin-top: 7%;
-  }
-  #btn-start img:active {
-    transform: scale(0.8);
-    -ms-transform:     scale(0.8);
-    -webkit-transform: scale(0.8);
-    -moz-transform:    scale(0.8);
-  }
-
-  #name {
-    font-size: 1.5rem;
-  }
-
-  footer {
-    font-size: 0.7rem;
-  }
-}
 
 @media screen and (min-device-width: 300px) and (max-device-width: 600px) and (min-device-height: 640px){
   #wrap-content {
@@ -355,7 +305,7 @@ footer a span:hover {
     width: 20%;
   }
 }
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   nav #brand {
     margin-top: 1%;
   }
@@ -381,6 +331,6 @@ footer a span:hover {
     -webkit-transform: scale(0.8);
     -moz-transform:    scale(0.8);
   }
-}
+} */
 
 /*# sourceMappingURL=style.css.map */
