@@ -3,6 +3,12 @@
     width: 100%;
     overflow: hidden;
   }
+  #welcome{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    margin-top: 25%;
+  }
 
   nav #brand {
     padding: 2%;
@@ -45,7 +51,7 @@
     -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
   }
   #game-content #actions-choices {
     transform: scale(1.6);
