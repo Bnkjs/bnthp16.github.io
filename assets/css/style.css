@@ -82,6 +82,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   height: auto;
   margin-bottom: 25%;
   cursor: none;
+  display: none;
 }
 
 #game-content #game-display h2 {
@@ -95,6 +96,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   z-index: 2;
   height: 20%;
   margin-bottom: 10%;
+  display: none;
 }
 #game-content #actions-display :nth-child(1n) {
   width: 25%;
@@ -175,8 +177,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 #name:focus, #name:active {
   background: none;
 }
-#btn-start-container{
-}
+
 #btn-start-container img {
   width: 60px;
   cursor: pointer;
