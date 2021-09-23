@@ -45,7 +45,7 @@
     -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
-    top: 48%;
+    bottom: 40%;
   }
   #game-content #actions-choices {
     transform: scale(1.6);
