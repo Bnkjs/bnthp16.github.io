@@ -81,6 +81,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   width: 100%;
   height: auto;
   margin-bottom: 25%;
+  cursor: none;
 }
 
 #game-content #game-display h2 {
@@ -92,7 +93,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   position: absolute;
   width: 40%;
   z-index: 2;
-  height: auto;
+  height: 20%;
   margin-bottom: 10%;
 }
 #game-content #actions-display :nth-child(1n) {
@@ -100,9 +101,15 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #game-content #actions-display :nth-child(1) {
   transform: scaleX(-1);
+  -ms-transform:      scaleX(-1) ;
+  -webkit-transform:  scaleX(-1) ;
+  -moz-transform:     scaleX(-1) ;
 }
 #game-content #actions-display :nth-child(2) {
   transform: rotate(-20deg);
+  -ms-transform:     rotate(-20deg) ;
+  -webkit-transform: rotate(-20deg) ;
+  -moz-transform:    rotate(-20deg) ;
 }
 #game-content .round-title {
   width: 100%;
@@ -127,6 +134,10 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #game-content #actions-choices img:hover {
   transform: scale(1.2);
+  -ms-transform:     scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform:    scale(1.2);
+  
 }
 #game-content #actions-choices img:active {
   background-color: #3c8df1;
@@ -174,6 +185,9 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #btn-start-container img:hover {
   transform: scale(1.2);
+  -ms-transform:     scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform:    scale(1.2);
 }
 
 #actions-display img {
@@ -260,6 +274,9 @@ footer a span:hover {
   }
   #btn-start img:active {
     transform: scale(0.8);
+    -ms-transform:     scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
   }
 
   #name {
@@ -284,6 +301,9 @@ footer a span:hover {
 
   nav #fighters{
    transform: scale(0.8);
+   -ms-transform:     scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
     width: auto;
   }
   nav .hr{
@@ -291,6 +311,7 @@ footer a span:hover {
   }
   #game-content{
     height: 100%;
+    background-color: red;
   }
   #game-display p {
     margin: 0;
@@ -307,9 +328,14 @@ footer a span:hover {
   #game-content #actions-display {
     width: 85%;
     top:30%;
+    background-color: rebeccapurple;
+    height: auto;
   }
   .ring-svg{
     transform: scale(1.6);
+    -ms-transform:     scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
     top: 48%;
@@ -320,6 +346,9 @@ footer a span:hover {
     align-items: center;
     flex-direction: column;
     transform: scale(1.6);
+    -ms-transform:     scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform:    scale(1.6);
     margin-top: 0%;
   }
   #game-content #actions-choices img {
@@ -350,6 +379,9 @@ footer a span:hover {
   }
   #welcome #btn-start img:active {
     transform: scale(0.8);
+    -ms-transform:     scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
   }
 }
 
