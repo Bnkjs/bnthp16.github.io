@@ -311,7 +311,6 @@ footer a span:hover {
   }
   #game-content{
     height: 100%;
-    background-color: red;
   }
   #game-display p {
     margin: 0;
@@ -328,8 +327,8 @@ footer a span:hover {
   #game-content #actions-display {
     width: 85%;
     top:30%;
-    background-color: rebeccapurple;
     height: auto;
+    display: none;
   }
   .ring-svg{
     transform: scale(1.6);
@@ -354,7 +353,6 @@ footer a span:hover {
   #game-content #actions-choices img {
     margin: 5%;
     width: 20%;
-  
   }
 }
 @media screen and (min-width: 900px) {
