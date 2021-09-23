@@ -2,7 +2,6 @@
   #wrap-content {
     width: 100%;
     overflow: hidden;
-    background-color: red;
   }
 
   nav #brand {
@@ -39,7 +38,6 @@
     width: 85%;
     top:30%;
     height: auto;
-    display: none;
   }
   .ring-svg{
     transform: scale(1.6);
