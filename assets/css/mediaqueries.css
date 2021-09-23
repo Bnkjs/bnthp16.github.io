@@ -37,7 +37,6 @@
   #game-content #actions-display {
     width: 85%;
     height: 8vh;
-    margin-top: -45%;
   }
   .ring-svg{
     transform: scale(1.6);
