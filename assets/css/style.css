@@ -4,6 +4,9 @@ body {
   font-size: 1.13rem;
   font-family: sans-serif;
   background: linear-gradient(180deg, #ffd351 0.51%, rgba(248, 130, 118, 0.9) 42.3%, #bedfff 90.77%);
+  background:-moz-linear-gradient(180deg, #ffd351 0.51%, rgba(248, 130, 118, 0.9) 42.3%, #bedfff 90.77%);
+  background: -webkit-linear-gradient(180deg, #ffd351 0.51%, rgba(248, 130, 118, 0.9) 42.3%, #bedfff 90.77%);
+  background: -moz-linear-gradient(180deg, #ffd351 0.51%, rgba(248, 130, 118, 0.9) 42.3%, #bedfff 90.77%);
   color: #ffff;
   overflow: hidden;
 }
