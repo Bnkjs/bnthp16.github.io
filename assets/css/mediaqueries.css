@@ -48,10 +48,6 @@
     top: 48%;
   }
   #game-content #actions-choices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     transform: scale(1.6);
     -ms-transform:     scale(1.6);
     -webkit-transform: scale(1.6);
