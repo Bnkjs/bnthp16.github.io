@@ -98,7 +98,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #game-content #actions-display :nth-child(1n) {
   width: 25%;
-  height: auto;
+  height: 8vh;
 }
 #game-content #actions-display :nth-child(1) {
   transform: scaleX(-1);
@@ -214,6 +214,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   height: auto;
   margin-top: 5%;
   z-index: 3;
+  background-color: red;
 }
 
 footer {
