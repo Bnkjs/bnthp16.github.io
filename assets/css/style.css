@@ -248,6 +248,7 @@ footer a span:hover {
   #wrap-content {
     width: 100%;
     overflow: hidden;
+    background-color: red;
   }
 
   nav #brand {
