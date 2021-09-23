@@ -8,13 +8,12 @@
     <title>SHI-FU-MI</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
   </head>
   <body>
     <nav>
       <div id="brand">SHI FU MI</div>
       <div id="fighters">
-        <span class="username"></span><span>|</span><span class="robot-name"></span>
+        <span class="username"></span><span class="hr">|</span><span class="robot-name"></span>
       </div>
     </nav>
     <div id="wrap-content">
@@ -29,25 +28,16 @@
             <div class="form-user">
               <input type="text" name="name" id="name"  required placeholder="Galatée, Néo...">
             </div>
-            <div id="btn-start">
-              <img src="assets/svg/play-button.svg" alt="">
+            <div id="btn-start-container">
+              <img id="btn-start" src="assets/svg/play-button.svg" alt="">
             </div>
           </div>
-          <img class="ring-svg" src="./assets/svg/ring.svg" alt="plateau ring en 3d">
 
     </div>
-
     <!------------------  PARTIE À FAIRE ---------------->
+    <audio id="audio-player" src="./assets/audio/whoosh.mp3"/>
 
-    <audio id="audio-player" src="./assets/audio/whoosh.mp3"></audio>
-
-    <footer>
-    <a href="https://linkedin.com/in/borisnkuako" target="blank">Illustration & Design by:<span> Boris N'KUAKO</span> </a>
-    <a href="#"><img src="https://cutt.ly/SWyWAVg" target="blank" alt="Logo github noir"></a>
-    </footer>
-
-    <script src="js/dom.js"></script>
-    <script src="js/script.js"></script>
-    
+    <script  src="js/dom.js" ></script>
+    <script  src="js/script.js" ></script>
   </body>
 </html>

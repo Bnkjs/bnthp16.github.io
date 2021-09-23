@@ -3,20 +3,24 @@
 // <------------ ROBOT PLAYER ------------->
 const robots = ["Zorg-hS35K 🤖"," Zorg-Trz7cHEat 🤖", "Zorg-stellar 🤖"]
 const randomRobotChoice = (Math.floor(Math.random() * robots.length))
+wrapContent.appendChild(ringSVG)
+const ringSVGSelector = document.querySelector('.ring-svg')
+  ringSVGSelector.style.display= "none"
 // <------------ ROBOT PLAYER ------------->
-// <---------- FUNCTIONS ------------->
+
 startGame = () => {
+  
   userName.innerHTML = `${'😎 ' + inputUserName.value}`
   robotName.innerHTML = `${robots[randomRobotChoice]}`
   spanNameFighter.innerHTML =` ${inputUserName.value} !!`
   welcome.style.display ="none"
   wrapContent.appendChild(gameContent)
   gameContent.style.display = "flex"
-  console.log(ringSVGSelector);
   ringSVGSelector.style.visibility= "visible"
   const actionsChoicesSelector = document.querySelectorAll('.user-choice')
+  console.log(gameContent, 'salut');
   for(let i = 0; i < actionsChoicesSelector.length; i++){
-    actionsChoicesSelector[i].addEventListener('click', ()=>{
+      actionsChoicesSelector[i].addEventListener('click', ()=>{
       audioPlayer.play()
       const actionsDisplaySelector = document.querySelectorAll('.handFree')
       const player = actionsChoicesSelector[i].title
@@ -30,13 +34,13 @@ startGame = () => {
       }
       else if ((player === "Rock" && actionsChoicesSelector[randomRobotChoice].title === "Scissors") || 
       (player === "Scissors" && actionsChoicesSelector[randomRobotChoice].title === "Paper") || (player === "Paper" && actionsChoicesSelector[randomRobotChoice].title === "Rock")){
-        actionsChoicesSelector[0].src = playerImgChoice
-        actionsChoicesSelector[1].src = robotImgChoice
+        actionsDisplaySelector[0].src = playerImgChoice
+        actionsDisplaySelector[1].src = robotImgChoice
         resultRound.innerHTML = "Gagné 🥳 🤩";
       }
       else{
-        actionsChoicesSelector[0].src = playerImgChoice
-        actionsChoicesSelector[1].src = robotImgChoice
+        actionsDisplaySelector[0].src = playerImgChoice
+        actionsDisplaySelector[1].src = robotImgChoice
         resultRound.innerHTML="Perdu...😤"
       }
     })
