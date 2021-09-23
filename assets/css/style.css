@@ -81,6 +81,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   width: 100%;
   height: auto;
   margin-bottom: 25%;
+  cursor: none;
 }
 
 #game-content #game-display h2 {
@@ -92,17 +93,28 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   position: absolute;
   width: 40%;
   z-index: 2;
-  height: auto;
+  height: 20%;
   margin-bottom: 10%;
+  display: none;
 }
 #game-content #actions-display :nth-child(1n) {
   width: 25%;
+  height: auto;
+  display: none;
 }
 #game-content #actions-display :nth-child(1) {
   transform: scaleX(-1);
+  -ms-transform:      scaleX(-1) ;
+  -webkit-transform:  scaleX(-1) ;
+  -moz-transform:     scaleX(-1) ;
+  display: none;
 }
 #game-content #actions-display :nth-child(2) {
   transform: rotate(-20deg);
+  -ms-transform:     rotate(-20deg) ;
+  -webkit-transform: rotate(-20deg) ;
+  -moz-transform:    rotate(-20deg) ;
+  display: none;
 }
 #game-content .round-title {
   width: 100%;
@@ -127,6 +139,10 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #game-content #actions-choices img:hover {
   transform: scale(1.2);
+  -ms-transform:     scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform:    scale(1.2);
+  
 }
 #game-content #actions-choices img:active {
   background-color: #3c8df1;
@@ -164,8 +180,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 #name:focus, #name:active {
   background: none;
 }
-#btn-start-container{
-}
+
 #btn-start-container img {
   width: 60px;
   cursor: pointer;
@@ -174,12 +189,17 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #btn-start-container img:hover {
   transform: scale(1.2);
+  -ms-transform:     scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform:    scale(1.2);
 }
 
 #actions-display img {
   position: relative;
   top: 0;
   animation: bouncy 1s ease-in alternate infinite;
+  -webkit-animation:bouncy 1s ease-in alternate infinite ;
+  -moz-animation: bouncy 1s ease-in alternate infinite;
 }
 @keyframes bouncy {
   from {
@@ -222,59 +242,13 @@ footer a span:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 150px) and (max-width: 299px) {
-  #wrap-content {
-    width: 95%;
-  }
 
-  nav #brand {
-    width: 35%;
-    font-size: 1.5rem;
-  }
-
-  #game-display p {
-    margin: 0;
-  }
-  #game-display .result-round {
-    font-size: 1.2rem;
-  }
-
-  #game-content #actions-display {
-    width: 45%;
-  }
-  #game-content #actions-choices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #game-content #actions-choices img {
-    margin: 5%;
-    width: 20%;
-    margin-top: 10%;
-  }
-
-  #btn-start img {
-    width: 60px;
-    margin-top: 7%;
-  }
-  #btn-start img:active {
-    transform: scale(0.8);
-  }
-
-  #name {
-    font-size: 1.5rem;
-  }
-
-  footer {
-    font-size: 0.7rem;
-  }
-}
 
 @media screen and (min-device-width: 300px) and (max-device-width: 600px) and (min-device-height: 640px){
   #wrap-content {
     width: 100%;
     overflow: hidden;
+    background-color: red;
   }
 
   nav #brand {
@@ -284,6 +258,9 @@ footer a span:hover {
 
   nav #fighters{
    transform: scale(0.8);
+   -ms-transform:     scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
     width: auto;
   }
   nav .hr{
@@ -307,9 +284,14 @@ footer a span:hover {
   #game-content #actions-display {
     width: 85%;
     top:30%;
+    height: auto;
+    display: none;
   }
   .ring-svg{
     transform: scale(1.6);
+    -ms-transform:     scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
     top: 48%;
@@ -320,15 +302,17 @@ footer a span:hover {
     align-items: center;
     flex-direction: column;
     transform: scale(1.6);
+    -ms-transform:     scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform:    scale(1.6);
     margin-top: 0%;
   }
   #game-content #actions-choices img {
     margin: 5%;
     width: 20%;
-  
   }
 }
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   nav #brand {
     margin-top: 1%;
   }
@@ -350,7 +334,10 @@ footer a span:hover {
   }
   #welcome #btn-start img:active {
     transform: scale(0.8);
+    -ms-transform:     scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
   }
-}
+} */
 
 /*# sourceMappingURL=style.css.map */
