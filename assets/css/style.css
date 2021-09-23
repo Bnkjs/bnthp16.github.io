@@ -99,6 +99,8 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 }
 #game-content #actions-display :nth-child(1n) {
   width: 25%;
+  height: auto;
+  display: none;
 }
 #game-content #actions-display :nth-child(1) {
   transform: scaleX(-1);
