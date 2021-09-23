@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.13rem;
+  font-family: sans-serif;
   background: linear-gradient(180deg, #ffd351 0.51%, rgba(248, 130, 118, 0.9) 42.3%, #bedfff 90.77%);
   color: #ffff;
   overflow: hidden;
@@ -11,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  width: 80%;
   height: 100vh;
   margin: auto;
   text-align: center;
@@ -22,7 +23,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 8vh;
+  height: 10vh;
 }
 nav #brand {
   display: flex;
@@ -64,26 +65,24 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 
 #game-content {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 30%;
   z-index: 4;
+  position: relative;
+  padding-bottom: 5%;
 }
 #game-content #game-display {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  padding: 10%;
-}
-#game-content #game-display {
-  display: block;
   margin: 0;
-  width: 50%;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 25%;
 }
+
 #game-content #game-display h2 {
   font-size: 3rem;
 }
@@ -94,6 +93,7 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
   width: 40%;
   z-index: 2;
   height: auto;
+  margin-bottom: 10%;
 }
 #game-content #actions-display :nth-child(1n) {
   width: 25%;
@@ -164,14 +164,15 @@ nav #fighters :nth-child(1), nav #fighters :nth-child(3) {
 #name:focus, #name:active {
   background: none;
 }
-
-#btn-start img {
+#btn-start-container{
+}
+#btn-start-container img {
   width: 60px;
   cursor: pointer;
   transition: all 150ms ease-in-out;
   margin-top: 20px;
 }
-#btn-start img:hover {
+#btn-start-container img:hover {
   transform: scale(1.2);
 }
 
@@ -221,7 +222,7 @@ footer a span:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 150px) and (max-width: 400px) {
+@media screen and (min-width: 150px) and (max-width: 299px) {
   #wrap-content {
     width: 95%;
   }
@@ -269,9 +270,11 @@ footer a span:hover {
     font-size: 0.7rem;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 900px) {
+
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) and (min-device-height: 640px){
   #wrap-content {
-    width: 85%;
+    width: 100%;
+    overflow: hidden;
   }
 
   nav #brand {
@@ -279,23 +282,50 @@ footer a span:hover {
     margin-top: 2%;
   }
 
+  nav #fighters{
+   transform: scale(0.8);
+    width: auto;
+  }
+  nav .hr{
+    font-size: 1.5em;
+  }
+  #game-content{
+    height: 100%;
+  }
   #game-display p {
+    margin: 0;
+  }
+  #game-display {
+    position: absolute;
+    top: -20%;
+    height: auto ;
+  }
+  #game-display h2{
     margin: 0;
   }
 
   #game-content #actions-display {
-    width: 45%;
+    width: 85%;
+    top:30%;
+  }
+  .ring-svg{
+    transform: scale(1.6);
+    margin-bottom: 0% !important;
+    position: absolute;
+    top: 48%;
   }
   #game-content #actions-choices {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: scale(1.6);
+    margin-top: 0%;
   }
   #game-content #actions-choices img {
     margin: 5%;
     width: 20%;
-    margin-top: 10%;
+  
   }
 }
 @media screen and (min-width: 900px) {
