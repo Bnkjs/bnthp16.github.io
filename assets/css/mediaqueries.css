@@ -116,7 +116,6 @@
   #game-content #actions-display {
     width: 80%;
     height: auto;
-    background-color: yellow;
     position: relative;
     margin-top: 35%;
   }
@@ -128,11 +127,11 @@
     margin-top: 13%
   }
   #game-content #actions-choices {
-    transform: scale(1.6);
-    -ms-transform:     scale(1.6);
-    -webkit-transform: scale(1.6);
-    -moz-transform:    scale(1.6);
-    margin-top: 35%;
+    transform:         scale(1.4);
+    -ms-transform:     scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform:    scale(1.4);
+    margin-top: 30%;
   }
   #game-content #actions-choices img {
     margin: 5%;
