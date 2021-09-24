@@ -51,6 +51,7 @@
     width: 85%;
     height: 8vh;
     top: 85%;
+    position: absolute;
   }
   .ring-svg{
     transform: scale(1.6);
