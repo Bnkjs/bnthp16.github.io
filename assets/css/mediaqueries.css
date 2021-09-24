@@ -50,7 +50,7 @@
   #game-content #actions-display {
     width: 85%;
     height: 8vh;
-    top: 75%;
+    top: 72.5%;
     position: absolute;
   }
   .ring-svg{
@@ -60,14 +60,14 @@
     -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
-    bottom: 38%;
+    bottom: 40%;
   }
   #game-content #actions-choices {
     transform: scale(1.6);
     -ms-transform:     scale(1.6);
     -webkit-transform: scale(1.6);
     -moz-transform:    scale(1.6);
-    margin-top: 40%;
+    margin-top: 55%;
   }
   #game-content #actions-choices img {
     margin: 5%;
