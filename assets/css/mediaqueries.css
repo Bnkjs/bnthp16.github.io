@@ -12,6 +12,11 @@
     top: 0;
     margin-top: 25%;
   }
+  #welcome h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+  }
 
   nav #brand {
     padding: 2%;
@@ -46,7 +51,7 @@
   #game-content #actions-display {
     width: 85%;
     height: 8vh;
-    top: 58%;
+    top: 65%;
   }
   .ring-svg{
     transform: scale(1.6);
@@ -55,7 +60,7 @@
     -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
-    bottom: 31%;
+    bottom: 38%;
   }
   #game-content #actions-choices {
     transform: scale(1.6);
