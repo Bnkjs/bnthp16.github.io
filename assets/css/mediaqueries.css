@@ -41,7 +41,6 @@
   }
   #game-display {
     position: absolute;
-    top: -20%;
     height: auto ;
   }
   #game-display h2{
@@ -51,7 +50,7 @@
   #game-content #actions-display {
     width: 85%;
     height: 8vh;
-    top: 65%;
+    top: 85%;
   }
   .ring-svg{
     transform: scale(1.6);
