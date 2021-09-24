@@ -1,3 +1,4 @@
+/* IPHONE SCREEN */
 @media screen and (min-device-width: 300px) and (max-device-width: 600px) and (min-device-height: 640px){
   #wrap-content {
     width: 100%;
@@ -45,7 +46,7 @@
   #game-content #actions-display {
     width: 85%;
     height: 8vh;
-    top: 55%;
+    top: 58%;
   }
   .ring-svg{
     transform: scale(1.6);
@@ -54,17 +55,46 @@
     -moz-transform:    scale(1.6);
     margin-bottom: 0% !important;
     position: absolute;
-    bottom: 32%;
+    bottom: 31%;
   }
   #game-content #actions-choices {
     transform: scale(1.6);
     -ms-transform:     scale(1.6);
     -webkit-transform: scale(1.6);
     -moz-transform:    scale(1.6);
-    margin-top: 25%;
+    margin-top: 35%;
   }
   #game-content #actions-choices img {
     margin: 5%;
     width: 20%;
   }
+}
+
+/* MAC SCREEN */
+@media screen and (min-width: 1201px) and (max-width: 1440px){
+  .title{
+    font-size: 2.5em;
+  }
+  .form-user{
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  #game-content{
+    margin: 0;
+  }
+  #game-display{
+    margin:0;
+  }
+  #game-display p{
+   margin-top: -2%;
+  }
+  #actions-display{
+    margin-top: 10%;
+  }
+  .ring-svg{
+    margin-top: 1%;
+    transform: scale(0.9);
+    margin-bottom: 0;
+  }
+  
 }
